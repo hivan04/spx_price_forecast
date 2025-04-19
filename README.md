@@ -16,7 +16,7 @@ pip install pandas yfinance matplotlib statsmodels numpy <=2.0.3 pmdarima
 ## Overview of Process
 - Initially started by looking at the ACF and PACF of the training set we made for the S&P 500 to determine whether any patterns or seasonality occurred with our historical data. We also performed an ADF (Augmented-Dickey Fuller) test to see whether our data was stationary in levels form - and found that it was stationary with an Order of Integration of 1 $I=1$. 
 
-- Used the pmdarima library to find the optimal number of lags for our AR and MA parts using the AIC, BIC and HQIC (info. criterions). This could have been done manually, and the outcome would be fairly similar (and potentially identical), but for efficiency we utilise the aforemationned method. More detail about the manual method can be found in the [report](https://www.notion.so/Forecasting-a-Portfolio-s-Future-Value-using-ARIMA-19ee3c3ed73680e382d9e029cf36391d)
+- Used the pmdarima library to find the optimal number of lags for our AR and MA parts using the AIC, BIC and HQIC (info. criterions). This could have been done manually, and the outcome would be fairly similar (and potentially identical), but for efficiency we utilise the aforemationned method. More detail about the manual method can be found in the [report.](https://www.notion.so/Forecasting-a-Portfolio-s-Future-Value-using-ARIMA-19ee3c3ed73680e382d9e029cf36391d)
 
 - Proceeded to test the accuracy of our ARIMA forecast on the training and testing set, and found that there was a high following between actual values and forecast vales (of ~99%).
 
