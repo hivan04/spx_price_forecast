@@ -22,7 +22,7 @@ pip install pandas yfinance matplotlib statsmodels numpy <=2.0.3 pmdarima
 
 - Predicted future values with an ARIMA(0,1,0) and found that there was no representation on the movement of S&P prices. Decided to create an ARIMA model which included exogeneous variables.
 
-- Decided to include NASDAQ, but found it had too high of a correlation with the S&P 500 to be included as an exogeneous variable, so we were worried about multcollinearity creating a misleading prediction. Decided to include my 'macro' variables: (i.r, pi, crude oil prices and VIX).
+- Decided to include NASDAQ (with i.r. and pi), but noticing that NASDAQ has a high of a correlation with the S&P 500 to be included as an exogeneous variable, so we were worried about multcollinearity creating a misleading prediction. Decided to include my 'macro' variables (including: i.r, pi, crude oil prices and VIX).
 
 - Including these variables showed our previous predictions were valid (price pattern remained), whilst also emphasising predicted downturns and upturns (including the volatility index emphasised the movement of prices, thus making our predictions more market like).
 
