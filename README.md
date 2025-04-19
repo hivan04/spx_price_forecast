@@ -11,7 +11,7 @@ Alternatively, download the following libraries:
 ```
 pip install pandas yfinance matplotlib statsmodels numpy <=2.0.3 pmdarima
 ```
-### Find full report [here:](https://www.notion.so/Forecasting-a-Portfolio-s-Future-Value-using-ARIMA-19ee3c3ed73680e382d9e029cf36391d)
+### Find full report [here 🔗](https://www.notion.so/Forecasting-a-Portfolio-s-Future-Value-using-ARIMA-19ee3c3ed73680e382d9e029cf36391d)
 
 ## Overview of Process
 - Initially started by looking at the ACF and PACF of the training set we made for the S&P 500 to determine whether any patterns or seasonality occurred with our historical data. We also performed an ADF (Augmented-Dickey Fuller) test to see whether our data was stationary in levels form - and found that it was stationary with an Order of Integration of 1 $I=1$. 
