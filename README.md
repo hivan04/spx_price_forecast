@@ -1,7 +1,7 @@
 # S&P 500 Price Prediction Model (using an ARIMA framework)
 Created an ARIMAX model to predict future prices for the index fund: S&P 500.
 
-Check out a report I made on it here!
+Check out a report I made on it here! <br>
 https://drive.google.com/file/d/1VpUfAU-QmbWhFrIfYH9VXC8o7HRykQRc/view?usp=sharing
 
 ## Virtual Environment (library installations)
